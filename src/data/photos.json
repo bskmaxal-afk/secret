@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "src": "assets/poto1.jpg",
+    "title": "Awal dari Segalanya",
+    "date": "14 Februari 2024",
+    "desc": "Senyuman pertama yang berhasil membuat duniaku terasa jauh lebih indah. Momen sederhana yang selalu aku simpan rapi dalam ingatan.",
+    "frame": "gold-frame"
+  },
+  {
+    "id": 2,
+    "src": "assets/poto2.jpg",
+    "title": "Tawa Bersamamu",
+    "date": "25 Maret 2024",
+    "desc": "Tidak ada suara yang lebih merdu daripada tawamu saat kita menghabiskan sore tanpa arah. Bersamamu, hal kecil selalu terasa istimewa.",
+    "frame": "wood-frame"
+  },
+  {
+    "id": 3,
+    "src": "assets/poto3.jpg",
+    "title": "Langkah yang Searah",
+    "date": "10 Mei 2024",
+    "desc": "Menyusuri jalanan kota berdua, bercerita tentang mimpi-mimpi yang ingin kita wujudkan bersama. Semoga langkah ini tidak akan pernah usai.",
+    "frame": "vintage-frame"
+  },
+  {
+    "id": 4,
+    "src": "assets/poto4.jpg",
+    "title": "Di Bawah Senja",
+    "date": "30 Juni 2024",
+    "desc": "Menyaksikan matahari terbenam dengan tanganmu yang menggenggam erat tanganku. Saat itu aku tahu, aku telah menemukan rumahku.",
+    "frame": "gold-frame"
+  }
+]

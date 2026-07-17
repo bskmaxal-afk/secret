@@ -1,0 +1,99 @@
+/* Ambient Flickering lights */
+@keyframes ambientFlicker {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 1; filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.45)); }
+  25%, 75% { opacity: 0.85; }
+}
+
+.animate-flicker {
+  animation: ambientFlicker 6s ease-in-out infinite;
+}
+
+/* Film Grain Overlay */
+.film-grain {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200%;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.045;
+  pointer-events: none;
+  z-index: 9999;
+  animation: grainShift 0.15s steps(3) infinite;
+}
+
+@keyframes grainShift {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-1%, -1%); }
+  30% { transform: translate(1%, -2%); }
+  50% { transform: translate(-2%, 1%); }
+  70% { transform: translate(2%, 2%); }
+  90% { transform: translate(-1%, 2%); }
+}
+
+/* Falling Leaves */
+@keyframes leafFall {
+  0% {
+    transform: translateY(-20px) rotate(0deg) translateX(0);
+    opacity: 0;
+  }
+  10% { opacity: 0.7; }
+  90% { opacity: 0.7; }
+  100% {
+    transform: translateY(105vh) rotate(360deg) translateX(80px);
+    opacity: 0;
+  }
+}
+
+.leaf {
+  position: absolute;
+  top: -6vh;
+  pointer-events: none;
+  font-size: 14px;
+  color: #7A5C3E;
+  opacity: 0;
+  animation: leafFall 12s linear infinite;
+}
+
+/* Projector Beam Ray */
+@keyframes projectorBeam {
+  0% { transform: rotate(-1.5deg) scaleX(1); opacity: 0.15; }
+  50% { transform: rotate(1.5deg) scaleX(1.06); opacity: 0.28; }
+  100% { transform: rotate(-1.5deg) scaleX(1); opacity: 0.15; }
+}
+
+.animate-projector-beam {
+  animation: projectorBeam 5s ease-in-out infinite, filmFlicker 0.15s infinite;
+}
+
+@keyframes filmFlicker {
+  0% { opacity: 0.95; }
+  50% { opacity: 0.88; }
+  100% { opacity: 0.95; }
+}
+
+/* Custom cursor particles */
+@keyframes cursorParticle {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0.2);
+    opacity: 0;
+  }
+}
+
+/* Photo Reflections */
+.reflection-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.03) 40%, transparent 40%);
+  pointer-events: none;
+}

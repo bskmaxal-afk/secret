@@ -1,0 +1,14 @@
+:root {
+  --color-parchment-light: #F5F1E8;
+  --color-gold: #D4AF37;
+  --color-wood-medium: #7A5C3E;
+  --color-wood-dark: #2F241B;
+  --color-parchment-dark: #E7D9C1;
+  --color-white: #FFFFFF;
+  --color-burgundy: #58181a;
+  --color-burgundy-light: #7e2428;
+
+  --font-title: 'Cinzel', serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Cormorant Garamond', serif;
+}

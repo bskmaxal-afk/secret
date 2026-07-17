@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import "./variables.css";
+@import "./animations.css";
+@import "./scrollbar.css";
+
+@theme {
+  --font-title: var(--font-title);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  
+  --color-parchment-light: var(--color-parchment-light);
+  --color-gold: var(--color-gold);
+  --color-wood-medium: var(--color-wood-medium);
+  --color-wood-dark: var(--color-wood-dark);
+  --color-parchment-dark: var(--color-parchment-dark);
+  --color-white: var(--color-white);
+  --color-burgundy: var(--color-burgundy);
+  --color-burgundy-light: var(--color-burgundy-light);
+}
+
+/* Custom Base Layer overrides */
+body {
+  background-color: var(--color-wood-dark);
+  color: var(--color-wood-dark);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Gold border frame styling */
+.gold-frame {
+  border: 16px solid transparent;
+  border-image: linear-gradient(135deg, #ffd700, #b8860b, #d4af37, #8a640f, #ffd700) 16;
+  outline: 4px solid #5a3d0f;
+  background: #111;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(0,0,0,0.8);
+}
+
+/* Wood border frame styling */
+.wood-frame {
+  border: 18px solid transparent;
+  border-image: linear-gradient(135deg, #5c301d, #2c1409, #4a2515, #1f0b03, #5c301d) 18;
+  outline: 2px solid #000;
+  background: #18110f;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(0,0,0,0.9);
+}
+
+/* Vintage border frame styling */
+.vintage-frame {
+  border: 14px solid transparent;
+  border-image: linear-gradient(135deg, #7c6853, #3a2e2b, #6b5a49, #281f1d, #7c6853) 14;
+  outline: 3px double #d4af37;
+  outline-offset: -8px;
+  background: #000;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), inset 0 0 30px rgba(0,0,0,0.9);
+}
+
+/* Brass Plaque shadows */
+.brass-plaque-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), inset 0 1px 3px rgba(255,255,255,0.4);
+}
+
+.brass-plaque-screw::before,
+.brass-plaque-screw::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  background: radial-gradient(circle, #555 20%, #111 80%);
+  border-radius: 50%;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.3);
+}
+
+.brass-plaque-screw::before { left: 6px; }
+.brass-plaque-screw::after { right: 6px; }
+
+/* Custom Vignette overlay */
+.vintage-vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.85);
+  pointer-events: none;
+  z-index: 999;
+}
