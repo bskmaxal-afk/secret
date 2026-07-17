@@ -2,8 +2,8 @@ export const photoData = [
   {
     id: 1,
     src: "/images/poto1.jpg",
-    title: "Awal dari Segalanya",
-    date: "14 Februari 2024",
+    title: "Senyum Pertamamu",
+    date: "1 Juli 2026",
     desc: "Senyuman pertama yang berhasil membuat duniaku terasa jauh lebih indah. Momen sederhana yang selalu aku simpan rapi dalam ingatan.",
     frame: "gold",
     comments: [
@@ -14,8 +14,8 @@ export const photoData = [
   {
     id: 2,
     src: "/images/poto2.jpg",
-    title: "Tawa Bersamamu",
-    date: "25 Maret 2024",
+    title: "Tawa di Sore Hari",
+    date: "5 Juli 2026",
     desc: "Tidak ada suara yang lebih merdu daripada tawamu saat kita menghabiskan sore tanpa arah. Bersamamu, hal kecil selalu terasa istimewa.",
     frame: "wood",
     comments: [
@@ -26,8 +26,8 @@ export const photoData = [
   {
     id: 3,
     src: "/images/poto3.jpg",
-    title: "Langkah yang Searah",
-    date: "10 Mei 2024",
+    title: "Jelajah Kota Berdua",
+    date: "10 Juli 2026",
     desc: "Menyusuri jalanan kota berdua, bercerita tentang mimpi-mimpi yang ingin kita wujudkan bersama. Semoga langkah ini tidak akan pernah usai.",
     frame: "vintage",
     comments: [
@@ -38,8 +38,8 @@ export const photoData = [
   {
     id: 4,
     src: "/images/poto4.jpg",
-    title: "Di Bawah Senja",
-    date: "30 Juni 2024",
+    title: "Matahari Terbenam",
+    date: "15 Juli 2026",
     desc: "Menyaksikan matahari terbenam dengan tanganmu yang menggenggam erat tanganku. Saat itu aku tahu, aku telah menemukan rumahku.",
     frame: "gold",
     comments: [
@@ -50,8 +50,8 @@ export const photoData = [
   {
     id: 5,
     src: "/images/poto5.jpg",
-    title: "Ngopi Pagi Pertama",
-    date: "15 Juli 2024",
+    title: "Kopi Pagi Kami",
+    date: "20 Juli 2026",
     desc: "Pagi itu kita bangun kesiangan, terus buru-buru cari coffee shop yang buka pagi. Kopinya biasa aja, tapi momennya luar biasa.",
     frame: "wood",
     comments: [
@@ -62,8 +62,8 @@ export const photoData = [
   {
     id: 6,
     src: "/images/poto6.jpg",
-    title: "Hujan-Hujanan",
-    date: "22 Agustus 2024",
+    title: "Tari Dalam Hujan",
+    date: "22 Juli 2026",
     desc: "Kehujanan tanpa payung. Bukannya kesel, malah ketawa-ketawa. Momen paling random tapi paling berkesan.",
     frame: "vintage",
     comments: [
@@ -74,8 +74,8 @@ export const photoData = [
   {
     id: 7,
     src: "/images/poto7.jpg",
-    title: "Makan Malam Spesial",
-    date: "10 September 2024",
+    title: "Malam yang Istimewa",
+    date: "25 Juli 2026",
     desc: "Dinner pertama kita di tempat fancy. Aku grogi mau pesen, kamu malah ketawa. Tapi makanannya enak banget sih.",
     frame: "gold",
     comments: [
@@ -86,8 +86,8 @@ export const photoData = [
   {
     id: 8,
     src: "/images/poto8.jpg",
-    title: "Jalan Sore Santai",
-    date: "5 Oktober 2024",
+    title: "Jalan Tanpa Tujuan",
+    date: "28 Juli 2026",
     desc: "Nggak ada tujuan, cuma jalan. Tapi ngobrolnya bisa sampe berjam-jam. Kadang diem juga gapapa, yang penting ada kamu.",
     frame: "wood",
     comments: [
@@ -98,8 +98,8 @@ export const photoData = [
   {
     id: 9,
     src: "/images/poto9.jpg",
-    title: "Selfie Terlucu",
-    date: "20 November 2024",
+    title: "Muka Kocak Kami",
+    date: "30 Juli 2026",
     desc: "Foto paling random dan paling kocak. Muka kita berdua ancur banget tapi justru ini foto favorit aku.",
     frame: "vintage",
     comments: [
@@ -110,8 +110,8 @@ export const photoData = [
   {
     id: 10,
     src: "/images/poto10.jpg",
-    title: "Momen Terakhir... Untuk Sekarang",
-    date: "25 Desember 2024",
+    title: "Hingga Saat Ini",
+    date: "31 Juli 2026",
     desc: "Bukan yang terakhir beneran. Ini cuma foto terbaru yang kita punya. Dan aku yakin, masih banyak lagi momen yang akan kita ciptakan.",
     frame: "gold",
     comments: [

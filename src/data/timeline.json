@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "date": "14 Januari 2024",
-    "title": "Pertemuan Pertama",
-    "desc": "Hari di mana mata kita pertama kali bertemu. Sebuah kebetulan kecil yang ternyata menjadi awal dari perjalanan paling berharga dalam hidupku.",
+    "date": "1 Juli 2026",
+    "title": "Senyum Pertamamu",
+    "desc": "Senyuman pertama yang berhasil membuat duniaku terasa jauh lebih indah. Momen sederhana yang selalu aku simpan rapi dalam ingatan.",
     "icon": "sparkles"
   },
   {
     "id": 2,
-    "date": "20 Januari 2024",
-    "title": "Pesan Pertama",
-    "desc": "Dari obrolan canggung di chat hingga larut malam. Setiap notifikasi darimu selalu berhasil membuat jantungku berdegup lebih kencang.",
+    "date": "5 Juli 2026",
+    "title": "Tawa di Sore Hari",
+    "desc": "Tidak ada suara yang lebih merdu daripada tawamu saat kita menghabiskan sore tanpa arah. Bersamamu, hal kecil selalu terasa istimewa.",
     "icon": "envelope"
   },
   {
     "id": 3,
-    "date": "14 Februari 2024",
-    "title": "Kencan Pertama",
-    "desc": "Hari valentine pertama kita. Gugup, tertawa bersama, dan menyadari bahwa bersamamu, waktu rasanya berjalan begitu cepat.",
+    "date": "10 Juli 2026",
+    "title": "Jelajah Kota Berdua",
+    "desc": "Menyusuri jalanan kota berdua, bercerita tentang mimpi-mimpi yang ingin kita wujudkan bersama. Semoga langkah ini tidak akan pernah usai.",
     "icon": "heart"
   },
   {
     "id": 4,
-    "date": "17 Maret 2024",
-    "title": "Dunia Milik Berdua",
-    "desc": "Momen saat kita berjanji untuk saling menjaga dan berjalan beriringan menghadapi apa pun yang ada di depan.",
+    "date": "15 Juli 2026",
+    "title": "Matahari Terbenam",
+    "desc": "Menyaksikan matahari terbenam dengan tanganmu yang menggenggam erat tanganku. Saat itu aku tahu, aku telah menemukan rumahku.",
     "icon": "star"
   },
   {
     "id": 5,
-    "date": "10 Mei 2024",
-    "title": "Perjalanan Pertama",
-    "desc": "Liburan singkat pertama kita keluar kota. Berbagi pemandangan baru, makanan lezat, dan mengabadikan banyak tawa dalam potret.",
+    "date": "20 Juli 2026",
+    "title": "Kopi Pagi Kami",
+    "desc": "Pagi itu kita bangun kesiangan, terus buru-buru cari coffee shop yang buka pagi. Kopinya biasa aja, tapi momennya luar biasa.",
     "icon": "compass"
   },
   {
     "id": 6,
-    "date": "Kini & Selamanya",
-    "title": "Hari Ini & Masa Depan",
-    "desc": "Setiap hari bersamamu adalah lembaran baru di museum ini. Terima kasih telah menjadi bagian terindah dalam hidupku, Sabrina.",
+    "date": "31 Juli 2026",
+    "title": "Hingga Selamanya",
+    "desc": "Setiap hari bersamamu adalah lembaran baru di museum ini. Bukan yang terakhir beneran, ini cuma awal dari banyak momen yang akan kita ciptakan.",
     "icon": "infinity"
   }
 ]

@@ -136,7 +136,7 @@ export default function Entrance({ onEnter }) {
       </div>
 
       <div className="absolute bottom-6 text-[0.65rem] text-[#7A5C3E] tracking-[2px]">
-        DESIGNED FOR SABRINA &bull; EST. 2024
+        dibuat oleh Maxal pada bulan july 2026
       </div>
     </div>
   );

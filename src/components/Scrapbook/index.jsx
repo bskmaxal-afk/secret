@@ -90,10 +90,10 @@ export default function Scrapbook({ onNavigate }) {
               <div className="w-1/2 h-full bg-parchment-light border-y-4 border-l-4 border-wood-medium rounded-l-[12px] p-6 sm:p-10 flex flex-col justify-between text-wood-dark book-shadow-left page-shadow-left">
                 <div>
                   <h4 className="font-title text-gold-dark text-[1.1rem] border-b border-wood-dark/10 pb-2 mb-4">
-                    Dear Sabrina,
+                    Untuk Kamu,
                   </h4>
                   <p className="font-cursive text-[1.4rem] leading-relaxed text-wood-dark">
-                    Museum ini dibangun sebagai saksi bisu dari setiap tawa, cerita, dan perjalanan indah yang telah kita lalui bersama. Setiap sudut di tempat ini menyimpan serpihan memori berharga kita berdua.
+                    Museum ini aku bangun sebagai tempat untuk menyimpan setiap tawa, cerita, dan perjalanan indah yang telah kita lalui bersama. Setiap sudut di sini menyimpan serpihan memori berharga kita berdua. Aku harap kamu menyukai apa yang aku ciptakan untuk kamu.
                   </p>
                 </div>
                 <div className="text-right font-title text-[0.8rem] font-bold text-gold-dark">
@@ -124,10 +124,10 @@ export default function Scrapbook({ onNavigate }) {
               <div className="w-1/2 h-full bg-parchment-light border-y-4 border-l-4 border-wood-medium rounded-l-[12px] p-6 sm:p-10 flex flex-col justify-between text-wood-dark book-shadow-left page-shadow-left">
                 <div>
                   <h4 className="font-title text-gold-dark text-[1.1rem] border-b border-wood-dark/10 pb-2 mb-4">
-                    Pertemuan Pertama
+                    Senyum Pertamamu
                   </h4>
                   <p className="font-cursive text-[1.4rem] leading-relaxed text-wood-dark">
-                    Aku masih ingat betul pertama kali kita mengobrol. Rasanya hangat, tidak canggung, dan saat itu juga aku tahu ada sesuatu yang sangat spesial dalam dirimu yang akan mengubah duniaku.
+                    Aku masih ingat saat pertama kali aku melihat senyuman kamu. Langsung saja aku tahu bahwa ini adalah sesuatu yang istimewa. Tidak ada yang canggung, hanya hangat dan indah. Sejak saat itu aku tahu bahwa kamu akan mengubah hidup aku.
                   </p>
                 </div>
                 <div className="text-[0.7rem] text-[#887] font-semibold">Lembar 1 dari 2</div>
@@ -168,10 +168,10 @@ export default function Scrapbook({ onNavigate }) {
               <div className="w-1/2 h-full bg-parchment-light border-y-4 border-r-4 border-wood-medium rounded-r-[12px] p-6 sm:p-10 flex flex-col justify-between text-wood-dark book-shadow page-shadow-right relative">
                 <div>
                   <h4 className="font-title text-gold-dark text-[1.1rem] border-b border-wood-dark/10 pb-2 mb-4">
-                    Harapan Kita
+                    Hingga Selamanya
                   </h4>
                   <p className="font-cursive text-[1.4rem] leading-relaxed text-wood-dark">
-                    Terima kasih telah menemani setiap langkah perjalananku. Aku berharap buku kenangan kita ini tidak akan pernah selesai ditulis, dan kita akan terus menambahkan lembar-lembar baru yang jauh lebih indah.
+                    Sabrina, kamu tahu tidak? Setiap foto di sini adalah cerita kecil yang tidak akan pernah aku lupakan. Terima kasih telah membuat hari-hari aku menjadi lebih berwarna. Ini baru permulaan, masih banyak cerita yang belum tertulis. Aku janji akan terus menambahkan halaman-halaman baru yang lebih indah.
                   </p>
                 </div>
 
